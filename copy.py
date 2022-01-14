@@ -122,6 +122,14 @@ for ii in np.arange(100):
   exec_str = 'cd '+str(elements[ii])+'/ && cp '+str(elements[ii])+'_std.xml '+str(elements[ii])+'_str.xml && cd ../'
   # print(exec_str)
   os.system(exec_str)
+  
+cp ../../JTH-PBE-atomicdata-1.1/ATOMICDATA-sp/As.GGA_PBE-JTH_sp.xml As/As_str.xml
+cp ../../JTH-PBE-atomicdata-1.1/ATOMICDATA-sp/Bi.GGA_PBE-JTH_sp.xml Bi/Bi_str.xml
+cp ../../JTH-PBE-atomicdata-1.1/ATOMICDATA-sp/In.GGA_PBE-JTH_sp.xml In/In_str.xml
+cp ../../JTH-PBE-atomicdata-1.1/ATOMICDATA-sp/Pb.GGA_PBE-JTH_sp.xml Pb/Pb_str.xml
+cp ../../JTH-PBE-atomicdata-1.1/ATOMICDATA-sp/Sb.GGA_PBE-JTH_sp.xml Sb/Sb_str.xml
+cp ../../JTH-PBE-atomicdata-1.1/ATOMICDATA-sp/Sn.GGA_PBE-JTH_sp.xml Sn/Sn_str.xml
+cp ../../JTH-PBE-atomicdata-1.1/ATOMICDATA-sp/Tl.GGA_PBE-JTH_sp.xml Tl/Tl_str.xml
 
 
 
