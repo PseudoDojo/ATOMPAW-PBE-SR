@@ -113,8 +113,13 @@ elements = ['Ag',
 # ➜  ATOMPAW-PBE-SR git:(main) ✗ cp ../PBE-sp-UPF/Sn.GGA-PBE-paw.UPF Sn/Sn_str.upf 
 # ➜  ATOMPAW-PBE-SR git:(main) ✗ cp ../PBE-sp-UPF/Tl.GGA-PBE-paw.UPF Tl/Tl_str.upf
 
+# for ii in np.arange(100):
+#   exec_str = 'cd '+str(elements[ii])+'/ && cp ../../paw_pbe_stringent/'+str(elements[ii])+'.xml '+str(elements[ii])+'_str.xml && cd ../'
+#   # print(exec_str)
+#   os.system(exec_str)
+
 for ii in np.arange(100):
-  exec_str = 'cd '+str(elements[ii])+'/ && cp ../../paw_pbe_stringent/'+str(elements[ii])+'.xml '+str(elements[ii])+'_str.xml && cd ../'
+  exec_str = 'cd '+str(elements[ii])+'/ && cp '+str(elements[ii])+'_std.xml '+str(elements[ii])+'_str.xml && cd ../'
   # print(exec_str)
   os.system(exec_str)
 
