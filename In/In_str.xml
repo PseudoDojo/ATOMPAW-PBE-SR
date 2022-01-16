@@ -10,7 +10,7 @@
  Energy units=Hartree, length units=bohr
  PAW functions generated on 10/13/2015, 15:02:42.134
  by F. Jollet and M.Torrent
- JTH table v1.0
+ JTH table v1.1
  The input file is available at the end of this file
  Atompaw -->
 <ae_energy kinetic="  6.13055253737935709E+03" xc=" -1.59495474212425762E+02"
